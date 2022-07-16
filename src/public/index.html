@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Bin2Dec</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script type="text/javascript" src="/assets/js/bin2dec.js" async></script>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <header class="my-5 text-center">
+    <h1 class="display-1">Bin2Dec</h1>
+    <h2 class="title">Binary to decimal converter built with Sinatra, Bootstrap and JavaScript</h2>
+  </header>
+
+  <main class="flex-shrink-0">
+    <div class="container">
+      <div class="justify-content-center row">
+        <div class="border-end col-6 col-md-2">
+          <form>
+            <div class="mb-3">
+              <label for="binaryNumber" class="form-label">Enter binary number</label>
+              <input type="text" id="binaryNumber" class="form-control" aria-describedby="binaryNumberHelp">
+              <div id="binaryNumberHelp" class="form-text">Up to 8 binary digits.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Convert</button>
+          </form>
+        </div>
+        <div class="col-6 col-md-2">
+          <p>Decimal number</p>
+          <p id="decimalNumber" class="fw-bold">...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+    vinimdnbs
+  </footer>
+</body>
+
+</html>
