@@ -6,3 +6,9 @@ Resolution of the challenge proposed at [florinpop17/app-ideas](https://github.c
 
 **Tech:**
 - Sinatra
+- Bootstrap
+- JavaScript
+
+**Execution:**
+
+Go to the src directory, run 'bundle install' to install dependencies and finally run 'ruby server.rb'. The app can be accessed at localhost:4567.
