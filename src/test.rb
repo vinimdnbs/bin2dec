@@ -28,5 +28,4 @@ class ServerTest < Test::Unit::TestCase
     post '/convert', JSON.generate('binaryNumber' => '10000001'), 'CONTENT_TYPE' => 'application/json'
     assert_equal 129, JSON.parse(last_response.body)['decimalNumber']
   end
-
 end
